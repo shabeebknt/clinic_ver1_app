@@ -1,0 +1,63 @@
+/*div#carouselExampleIndicators {
+    height: 206px;
+    overflow: hidden;
+}
+*/
+
+.PageContent {
+    padding: var(--Content-Padding);
+    /* height: 100vh; */
+ /*   background: #f3f3f3;*/
+    position: relative;
+    top: 81px;
+
+}
+
+.Header {
+    background-image: url(/public/images/navbak.png);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    position:initial;
+}
+.PageContent {
+   
+    top: 0px;
+}
+
+.PageHeader .material-symbols-outlined {
+    top: 4px;
+    position: relative;
+    color: #727272;
+    font-size: 19px;
+}
+
+.SecondHead {
+    color: #727272;
+    font-size: 13px;
+}
+
+.PageHeader {
+    border-bottom: solid #def4e7 1px;
+    padding-top: 13px !important;
+    padding-bottom: 13px !important;
+}
+.PageContentPartial {
+    /*background-image: url(../images/bgbak_new.png);*/
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: 92% -16%;
+}
+    .PageContentPartial.nobg {
+        background-image:none;
+    }
+
+    .PageContentPartial {
+        margin-top: 30px;
+    }
+.bgimage {
+    width: 200px;
+    position: absolute;
+    top: 6%;
+    opacity: 0.3 !important;
+    left: 37%;
+}
