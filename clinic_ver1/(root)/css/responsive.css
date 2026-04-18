@@ -1,0 +1,241 @@
+﻿/* Extra extra large devices (larger desktops, ≤1400px) */
+@media (max-width: 1400px) {
+    /* Your styles here */
+}
+
+/* Extra large devices (large desktops, ≤1200px) */
+@media (max-width: 1200px) {
+    /* Your styles here */
+    .BackImgdv h1 {
+        font-size: 22px;
+    }
+}
+
+/* Large devices (desktops, ≤992px) */
+@media (max-width: 992px) {
+    /* Your styles here */
+    .carousel-custom-caption h5 {
+        font-size: 17px;
+        margin-top: 52px;
+    }
+    section.call-buton {
+    
+    right: -88px;
+      display: none;
+  
+}
+    .BackImgdv h1 {
+        font-size: 17px;
+        line-height: 36px;
+    }
+    .ImageContainerDescription h4 {
+        font-size: 12px;
+      
+    }
+
+    .welcome h5
+    {        
+        font-size: 18px;       
+    }
+    .BackImgdv {
+        background-attachment: local !important;
+        background-position: 0px;
+    }
+    .P_About {
+        width: 95%;
+    }
+     html {
+    font-size: 14px;
+}
+
+#navbarScroll .navbar-nav .nav-link::after {
+  
+    margin: initial;
+}
+    #navbarScroll {
+        position: absolute;
+        background: #76b49fe0;
+        width: 215px;
+        height: 314px;
+        top: 49px;
+        z-index: 999;
+        right: 0px;
+    }
+#navbarScroll ul {
+    padding-left: 0px;
+    margin-top:0px !important;
+}
+    #navbarScroll .nav-link {
+        margin: 0px 4px;
+        padding: 16px 10px;
+        font-size: 0.8rem;
+        border-bottom: solid #4d9a86 1px;
+        font-weight: 500;
+    }
+
+
+
+.WhatsAppIconFixed
+{
+   
+ 
+    right: 20px;
+  bottom: 74px;
+}
+
+.CallIconFixed {
+        right: 24px;
+        bottom: 132px;
+        display:block;
+    }
+
+}
+
+/* Medium devices (tablets, ≤768px) */
+@media (max-width: 768px) {
+    /* Your styles here */
+    .carousel-custom-caption p {
+        font-size: 17px;
+    }
+
+    .BackImgdv h1 {
+        font-size: 16px;
+    }
+
+    .welcome h5 {
+        line-height: 27px;
+        font-size: 14px;
+        padding-top: 10%;
+    }
+
+
+    .BackImgdv {
+        height: 209px;
+    }
+
+        .BackImgdv h1 {
+            
+            padding-top: 42px;
+        }
+    .EmergencyDv h1 {
+        font-size: 16px;
+       
+    }
+
+ 
+        .contacts_top {
+        display: none;
+    }
+
+
+    .btnEnquiry {
+      
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        box-shadow: 0px 1px 4px #878383;
+        z-index: 1;
+        border-radius: 0px;
+        width: 100%;
+        height: 40px;
+        margin: auto;
+        right: 0px;
+        background: #ffc107;
+        border: 0px;
+        display:block !important;
+       
+    }
+    .btnEnquirySlide
+    {
+        display:none !important;
+    }
+    .row.Dashboard {
+        height: 0px;
+    }
+
+  span.num {
+   
+    left: -45px;
+    top: 70px;
+}
+
+ .carousel-indicators {
+  
+    margin-bottom: 0rem;
+   
+}
+    .SiteTopHead {
+  
+        font-size: 20px !important;
+    }
+
+    }
+
+ 
+@media (max-width: 607px) {
+    .carousel-custom-caption h5 {
+        font-size: 10px;
+        margin-top: 52px;
+    }
+    .carousel-custom-caption p {
+        font-size: 7px;
+    }
+    .carousel-custom-caption {
+
+        top: -21%;
+    }
+    .SiteLogo {
+        width: 65px;
+    }
+    }
+
+    /* Small devices (landscape phones, ≤576px) */
+    @media (max-width: 576px) {
+        ul.pointsdv li {
+            display: block;
+            width: 100%;
+        }
+
+     
+        .carousel-custom-caption h5 {
+          /*  font-size: 13px;
+            margin-top: 21px;*/
+        }
+
+        .BackImgdv h1 {
+            padding-top: 62px;
+            line-height: 24px;
+            font-size: 15px;
+            width: 90%;
+        }
+
+        .welcome h5 {
+            padding-bottom: 0px;
+            padding-top: 10px;
+        }
+
+        .row.welcome p {
+            padding-top: 0px;
+        }
+    }
+
+
+    @media (max-width: 380px) {
+        .carousel-custom-caption h5 {
+            font-size: 8px;
+            margin-top: 29px;
+        }
+
+        .carousel-custom-caption p {
+            font-size: 8px;
+        }
+
+        .carousel-indicators {
+            margin-bottom: 0rem;
+        }
+
+        .carousel-custom-caption {
+    top: 0%;
+}
+    }
+

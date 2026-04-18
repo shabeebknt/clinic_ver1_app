@@ -1,0 +1,246 @@
+
+#carouselExample .carousel-item::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 600px;
+    /*    background: #00000042;*/
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+}
+
+#carouselExample .carousel-item img {
+    width: 100%;
+}
+
+
+.carousel-custom-caption {
+    position: absolute;
+    top: -31%;
+    bottom: 0px;
+    margin: auto;
+    width: 500px;
+    height: 81px;
+    left: 12%;
+}
+
+ 
+
+    .carousel-custom-caption p {
+        font-size: 24px;
+        color: white;
+        font-weight: 200 !important;
+        /*        text-shadow: 1px 1px 1px #000000;*/
+    }
+
+
+
+.carousel-indicators [data-bs-target] {
+    width: 32%;
+}
+
+
+.carousel-custom-caption h5 {
+    font-size: 3.1875rem;
+    font-weight: 900;
+    color: #00896f;
+    /*   text-shadow: 2px 0px 1px #878787;*/
+}
+
+    .carousel-custom-caption p {
+        font-size: 24px;
+        color: #000000;
+        font-weight: 200 !important;
+        /*        text-shadow: 1px 1px 1px #000000;*/
+    }
+
+
+
+
+/* Define the up and down animation */
+@keyframes floatUpDown {
+    0% {
+        transform: translateY(20px); /* Returns the text to the starting position */
+    }
+
+    50% {
+        transform: translateY(-20px); /* Moves the text UP by 15 pixels */
+    }
+
+    100% {
+        transform: translateY(20px); /* Returns the text to the starting position */
+    }
+}
+
+/* Apply the animation to your caption class */
+.carousel-custom-caption {
+    /* Animation properties: 
+     floatUpDown: the keyframes name
+     4s: duration (4 seconds makes it slow)
+     ease-in-out: makes the direction change smooth
+     infinite: loops the animation forever 
+  */
+    animation: floatUpDown 4s ease-in-out infinite;
+    /* Standard positioning for carousel captions (adjust as needed) */
+    position: absolute;
+   /* bottom: 20%;*/
+ /*   left: 50%;*/
+    transform: translateX(-50%); /* Centers the caption horizontally */
+    z-index: 10;
+    transition:0.5s;
+}
+
+
+/*--------------------------------------------------------------
+# Portfolio Section
+--------------------------------------------------------------*/
+.portfolio .portfolio-filters {
+    padding: 0;
+    margin: 0 auto 20px auto;
+    list-style: none;
+    text-align: center;
+}
+
+    .portfolio .portfolio-filters li {
+        cursor: pointer;
+        display: inline-block;
+        padding: 8px 20px 10px 20px;
+        margin: 0;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1;
+        margin-bottom: 5px;
+        border-radius: 50px;
+        transition: all 0.3s ease-in-out;
+        font-family: var(--heading-font);
+    }
+
+        .portfolio .portfolio-filters li:hover,
+        .portfolio .portfolio-filters li.filter-active {
+            color: var(--contrast-color);
+            background-color: var(--accent-color);
+        }
+
+        .portfolio .portfolio-filters li:first-child {
+            margin-left: 0;
+        }
+
+        .portfolio .portfolio-filters li:last-child {
+            margin-right: 0;
+        }
+
+@media (max-width: 575px) {
+    .portfolio .portfolio-filters li {
+        font-size: 14px;
+        margin: 0 0 10px 0;
+    }
+}
+
+.portfolio .portfolio-item {
+    position: relative;
+    overflow: hidden;
+}
+
+    .portfolio .portfolio-item .portfolio-info {
+        opacity: 0;
+        position: absolute;
+        left: 12px;
+        right: 12px;
+        bottom: -100%;
+        z-index: 3;
+        transition: all ease-in-out 0.5s;
+        background: color-mix(in srgb, var(--background-color), transparent 10%);
+        padding: 15px;
+        display: none;
+    }
+
+        .portfolio .portfolio-item .portfolio-info h4 {
+            font-size: 18px;
+            font-weight: 600;
+            padding-right: 50px;
+        }
+
+        .portfolio .portfolio-item .portfolio-info p {
+            color: color-mix(in srgb, var(--default-color), transparent 30%);
+            font-size: 14px;
+            margin-bottom: 0;
+            padding-right: 50px;
+        }
+
+        .portfolio .portfolio-item .portfolio-info .preview-link,
+        .portfolio .portfolio-item .portfolio-info .details-link {
+            position: absolute;
+            right: 50px;
+            font-size: 24px;
+            top: calc(50% - 14px);
+            color: color-mix(in srgb, var(--default-color), transparent 30%);
+            transition: 0.3s;
+            line-height: 0;
+        }
+
+            .portfolio .portfolio-item .portfolio-info .preview-link:hover,
+            .portfolio .portfolio-item .portfolio-info .details-link:hover {
+                color: var(--accent-color);
+            }
+
+        .portfolio .portfolio-item .portfolio-info .details-link {
+            right: 14px;
+            font-size: 28px;
+        }
+
+    .portfolio .portfolio-item:hover .portfolio-info {
+        opacity: 1;
+        bottom: 0;
+    }
+
+
+
+.team-section {
+    background-color: #f8f9fa; /* Ensure section background matches body for seamless look */
+}
+
+.team-card {
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    padding: 20px;
+    background-color: #eceef3;
+    transition: transform 0.3s ease-in-out;
+    height: 334px;
+}
+
+    .team-card:hover {
+        transform: translateY(-5px); /* Lift card slightly on hover */
+    }
+
+.profile-img-container {
+    width: 150px; /* Fixed width for the circular image container */
+    height: 150px; /* Fixed height for the circular image container */
+    border-radius: 50%; /* Make it perfectly circular */
+    overflow: hidden; /* Hide overflow to ensure circular shape */
+    margin: 0 auto 20px auto; /* Center the image and add bottom margin */
+    display: flex; /* Use flexbox to center the image within the container */
+    align-items: center;
+    justify-content: center;
+    border: 0px solid #007bff; /* Border around the circular image */
+    padding-top: 89px;
+}
+
+.profile-img {
+    width: 100%; /* Make image fill the container */
+    height: 100%; /* Make image fill the container */
+    object-fit: cover; /* Cover the container while maintaining aspect ratio */
+}
+
+.card-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #343a40; /* Darker text for names */
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #6c757d; /* Lighter text for roles */
+    margin-bottom: 5px;
+}
