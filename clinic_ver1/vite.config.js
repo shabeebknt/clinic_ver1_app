@@ -4,8 +4,11 @@ import obfuscator from 'vite-plugin-javascript-obfuscator'
 export default defineConfig({
     plugins: [
         obfuscator({
-            compact: true,
-            controlFlowFlattening: true
+            apply: 'build', // IMPORTANT
+            options: {
+                compact: true,
+                controlFlowFlattening: true
+            }
         })
     ]
 })
