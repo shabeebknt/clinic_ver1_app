@@ -87,7 +87,7 @@
    /* bottom: 20%;*/
  /*   left: 50%;*/
     transform: translateX(-50%); /* Centers the caption horizontally */
-    z-index: 10;
+    z-index: 1;
     transition:0.5s;
 }
 
