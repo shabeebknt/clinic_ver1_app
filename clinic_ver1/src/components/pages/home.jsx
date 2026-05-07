@@ -10,7 +10,7 @@ function Home()
 
         const timer = setTimeout(() => {
             AOS.init({
-                duration: 1500
+                duration: 2000
             });
         }, 1000); // 1 second delay
 

@@ -7,10 +7,13 @@ function Photogallery() {
 
     useEffect(() => {
 
-        AOS.init({
-            duration: 1000 // sets default duration for all elements
-        });
+        const timer = setTimeout(() => {
+            AOS.init({
+                duration: 2000
+            });
+        }, 1000); // 1 second delay
 
+        return () => clearTimeout(timer);
 
         Appcommon.InitIsotope();
 
