@@ -8,10 +8,13 @@ function Home()
 
     useEffect(() => {
 
-        AOS.init({
-            duration: 1500 // sets default duration for all elements
-        });
+        const timer = setTimeout(() => {
+            AOS.init({
+                duration: 1500
+            });
+        }, 1000); // 1 second delay
 
+        return () => clearTimeout(timer);
 
     }, []);
 
