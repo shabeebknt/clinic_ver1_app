@@ -10,14 +10,14 @@ function Footer() {
                     <p>Don't suffer in pain. Our emergency dental services are available when you need them most.</p>
 
                     <div className="button-group">
-                        <a href="tel:7025593559" className="btn call-btn">
+                        <a href="tel:9037517098" className="btn call-btn">
                             <i className="fa-solid fa-phone"></i>
-                            Emergency Call: 8123996838
+                            Emergency Call: 9037517098
                         </a>
 
-                        <a href="https://wa.me/7025593559" className="btn wa-btn" target="_blank">
+                        <a href="https://wa.me/9037517098" className="btn wa-btn" target="_blank">
                             <i className="fa-brands fa-whatsapp"></i>
-                            WhatsApp Now: 7025593559
+                            WhatsApp Now: 9037517098
                         </a>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ function Footer() {
                             admin@medicenter.com
 
                             <h2 className="mt-5 LightHead2">
-                                In Case of Emergency Call +917025593559
+                                In Case of Emergency Call +919037517098
                             </h2>
                         </div>
 
@@ -78,7 +78,7 @@ function Footer() {
                                 </li>
 
                                 <li>
-                                    <a href="https://wa.me/7025593559" className="whatsapp" aria-label="WhatsApp">
+                                    <a href="https://wa.me/9037517098" className="whatsapp" aria-label="WhatsApp">
                                         <i className="fa-brands fa-whatsapp"></i>
                                     </a>
                                 </li>
@@ -102,7 +102,7 @@ function Footer() {
                 </div>
             </div>
             <a
-                href="https://wa.me/7025593559"
+                href="https://wa.me/9037517098"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="WhatsAppIconFixed"
@@ -115,7 +115,7 @@ function Footer() {
             </a>
 
             <a
-                href="tel:+917025593559"
+                href="tel:+919037517098"
                 className="CallIconFixed"
             >
                 <img
@@ -126,12 +126,12 @@ function Footer() {
             </a>
           
             <section className="call-buton">
-                <a className="cc-calto-action-ripple" href="tel:+917025593559">
+                <a className="cc-calto-action-ripple" href="tel:+919037517098">
 
                 </a>
                 <span className="material-symbols-outlined callIcon">
                     call
-                </span><span className="num">+917025593559</span>
+                </span><span className="num">+919037517098</span>
             </section>
 
             <div className="col-md-4 item text-center">
