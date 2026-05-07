@@ -9,7 +9,7 @@ function Home()
     useEffect(() => {
 
         AOS.init({
-            duration: 1000 // sets default duration for all elements
+            duration: 1500 // sets default duration for all elements
         });
 
 
