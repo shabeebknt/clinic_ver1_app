@@ -13,7 +13,7 @@ Appcommon.ClearForm = function(form) {
 Appcommon.InitAOS_d_1000 = function() {
  
     AOS.init({
-            duration: 1500 // sets default duration for all elements
+            duration: 2000 // sets default duration for all elements
         });
 
 }
